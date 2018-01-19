@@ -1,0 +1,36 @@
+{
+  "name": "api-boilerplate",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  },
+  "description": "boilerplate to start coding and api in nodejs",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cratepull/api-boilerplante.git"
+  },
+  "keywords": [
+    "nodejs",
+    "boilerplate",
+    "api",
+    "js"
+  ],
+  "author": "Sebastian Salamanca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cratepull/api-boilerplante/issues"
+  },
+  "homepage": "https://github.com/cratepull/api-boilerplante#readme"
+}
