@@ -7,12 +7,14 @@ var compression = require('compression');
 var colors = require('colors'); 
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
+var helmet = require('helmet')
 
 var index = require('./routes/index');
 
 
 var app = express();
 app.use(compression())
+app.use(helmet())
 
 
 /**
