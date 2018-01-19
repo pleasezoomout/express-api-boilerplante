@@ -1,8 +1,8 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
-var apicache  = require('apicache')
-var cache     = apicache.middleware
+const apicache  = require('apicache')
+const cache     = apicache.middleware
 
 /* GET home page. */
 router.get('/', cache('1 minute'), function(req, res, next) {

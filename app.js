@@ -1,15 +1,15 @@
-var express = require('express');
-var path = require('path');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var compression = require('compression');
-var colors = require('colors'); 
-var mongo = require('mongodb');
-var mongoose = require('mongoose');
-var helmet = require('helmet')
+const express = require('express');
+const path = require('path');
+const logger = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const compression = require('compression');
+const colors = require('colors'); 
+const mongo = require('mongodb');
+const mongoose = require('mongoose');
+const helmet = require('helmet')
 
-var index = require('./routes/index');
+const index = require('./routes/index');
 
 
 var app = express();

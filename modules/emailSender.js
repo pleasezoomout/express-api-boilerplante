@@ -1,4 +1,4 @@
-var mailer = require("nodemailer");
+const mailer = require("nodemailer");
 
 /**
  * Email sender. More info at https://nodemailer.com/about/

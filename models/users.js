@@ -1,5 +1,5 @@
-var bluebird = require('bluebird');
-var mongoose = require('mongoose');
+const bluebird = require('bluebird');
+const mongoose = require('mongoose');
 
 mongoose.Promise = bluebird
 
@@ -19,7 +19,7 @@ var userSchema = mongoose.Schema({
 
 
 
-var Promise = bluebird
+const Promise = bluebird
 Promise.promisifyAll(mongoose);
 
 var user = module.exports = mongoose.model('user', userSchema);
