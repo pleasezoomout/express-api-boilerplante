@@ -14,7 +14,7 @@
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.4.5"
   },
-  "description": "boilerplate to start coding and api in nodejs",
+  "description": "boilerplate to start coding and api in nodejs using express framework",
   "main": "app.js",
   "devDependencies": {},
   "repository": {
